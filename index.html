@@ -3,37 +3,104 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<!-- Google font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<!-- Script -->
-	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
-	<script src="./assets/maugallery.js" defer></script>
-	<script src="./assets/scripts.js" defer></script>
+	<script async src="./assets/bootstrap/bootstrap.bundle.min.js" ></script>
+	<script async src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script async src="./assets/maugallery.min.js" ></script>
+	<script async src="./assets/scripts.min.js" ></script>
 	<!-- HTML Meta -->
 	<title>Nina Carducci - Photographe professionnelle</title>
 	<meta name="description" content="Nina Carducci, photographe professionnelle à Bordeaux, pour vos photos de portrait, concert, entreprise ou de mariage">
 	<!-- Twitter card -->
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:site" content="">
+	<meta name="twitter:site" content="@publisher_handle">
 	<meta name="twitter:title" content="Nina Carducci - Photographe professionnelle">
 	<meta name="twitter:description" content="Nina Carducci, photographe professionnelle à Bordeaux, pour vos photos de portrait, concert, entreprise ou de mariage.">
-	<meta name="twitter:url" content="">
+	<meta name="twitter:url" content="https://jhodylagarde.github.io/OC-Projet4-NinaCarducci/">
 	<meta name="twitter:image" content="">
-	<meta name="twitter:image:alt" content="">
+	<meta name="twitter:image:alt" content="portrait de Nina Carducci">
 	<!-- Open Graph -->
 	<meta property="og:title" content="Nina Carducci - Photographe professionnelle">
 	<meta property="og:site_name" content="Nina Carducci - Photographe professionnelle">
 	<meta property="og:type" content="website">
-	<meta property="og:locale" content="fr">
-	<meta property="og:url" content="">
+	<meta property="og:locale" content="FR">
+	<meta property="og:url" content="https://jhodylagarde.github.io/OC-Projet4-NinaCarducci/">
 	<meta property="og:image" content="">
-	<meta property="og:image:alt" content="">
+	<meta property="og:image:alt" content="portrait de Nina Carducci">
 	<meta property="og:description" content="Nina Carducci, photographe professionnelle à Bordeaux, pour vos photos de portrait, concert, entreprise ou de mariage.">
+	<!-- Rich snippet -->
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "LocalBusiness",
+		  "name": "Nina Carducci - Photographe professionnelle",
+		  "image": "",
+		  "@id": "",
+		  "url": "https://jhodylagarde.github.io/OC-Projet4-NinaCarducci/",
+		  "telephone": "+33 5 56 67 78 89",
+		  "priceRange": "50€ - 400€",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressCountry": "FR"
+		  },
+		  "geo": {
+			"@type": "GeoCoordinates",
+			"latitude": "44.8465666",
+			"longitude": "-0.6065257"
+		  },
+		  "openingHoursSpecification": [
+		  {
+			"@type": "OpeningHoursSpecification",
+			"dayOfWeek": [
+				"Lundi",
+				"Mardi",
+				"Mercredi",
+				"Jeudi",
+				"Vendredi"
+			],
+			"opens": "10h00",
+			"closes": "19h00"
+			}
+		  ]
+		}
+	</script>
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "FAQPage",
+		  "mainEntity": [{
+			"@type": "Question",
+			"name": "Quelles sont les horaires d'ouverture",
+			"acceptedAnswer": {
+			  "@type": "Answer",
+			  "text": "Du lundi au vendredi de 10h00 a 19h00"
+			}
+		}, {
+			"@type": "Question",
+			"name": "Comment prendre rendez-vous?",
+			"acceptedAnswer": {
+			"@type": "Answer",
+			"text": "Vous pouvez prendre rendez-vous par téléphone au 0556677889"
+			}
+		},{
+			"@type": "Question",
+			"name": "Quelles services proposez-vous",
+			"acceptedAnswer": {
+			"@type": "Answer",
+			"text": "Je peux vous proposez des séances de shooting, retouches de vos photos et création d'album"
+			}
+			}]
+		}
+		</script>
 </head>
 <body>
 <header class="top-header">
@@ -44,7 +111,7 @@
 			<li><a href="#gallery">Gallery</a></li>
 			<li><a href="#services">Service</a></li>
 			<li><a href="#contact">Contact</a></li>
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="logo instagram"></a></li>
+			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/logo-instagram-resize.png" width="20px" height="20px" alt="logo instagram"></a></li>
 		</ul>
 	</nav>
 </header>
@@ -59,13 +126,13 @@
 			</div>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg" class="d-block w-100" alt="Photo d'un homme d'affaire traversant un passage piéton">
+					<img src="./assets/images/slider/ryoji-iwata-homme-d'affaire-traversant-passage-piéton-resize.webp" class="d-block w-100" width="1920" height="888" alt="Photo d'un homme d'affaire traversant un passage piéton">
 				</div>
 				<div class="carousel-item">
-					<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg" class="d-block w-100" alt="Photo d'un public durant un évènement">
+					<img src="./assets/images/slider/nicholas-green-couple-s'embrassant-mariage-resize.webp" class="d-block w-100" width="1920" height="887" alt="Photo d'un public durant un évènement">
 				</div>
 				<div class="carousel-item">
-					<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg" class="d-block w-100" alt="Photo d'un homme et d'une femme dansant durant leur mariage">
+					<img src="./assets/images/slider/edward-cisneros-public-d'un-concert-resize.webp" class="d-block w-100" width="1920" height="888" alt="Photo d'un homme et d'une femme dansant durant leur mariage">
 				</div>
 			</div>
 			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -82,7 +149,7 @@
 
 	<section id="about">
 		<div class="picture left">
-			<img src="./assets/images/nina.png" alt="portrait de Nina Carducci">
+			<img src="./assets/images/portrait-nina-carducci-resize.webp" width="560" height="558" alt="portrait de Nina Carducci">
 		</div>
 		<div id="about-me">
 			<h1 class="about-me__title h1">Nina Carducci photograph</h1>
@@ -97,15 +164,15 @@
 		<h2 class="title">Portfolio</h2>
 		<div class="container py-3">
 			<div class="gallery" style="display: none">
-				<img data-gallery-tag="Concerts" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg" alt="photo prise du publique d'un concert en salle"/>
-				<img data-gallery-tag="Business" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" alt="photo d'un homme d'affaire croissant les bras"/>
-				<img data-gallery-tag="Business" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg" alt="photo d'une femme souriante en entreprise"/>
-				<img data-gallery-tag="Weddings" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg" alt="photo de mariage de mains qui se touchent du bout des doigts"/>
-				<img data-gallery-tag="Portraits" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg" alt="photo portrait d'un homme fermant les yeux"/>
-				<img data-gallery-tag="Weddings" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg" alt="photo de mariage d'un homme et d'une femme se tenant la main"/>
-				<img data-gallery-tag="Portraits" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg" alt="photo portrait d'une femme portant des lunettes"/>
-				<img data-gallery-tag="Concerts" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg" alt="photo d'un chanteur durant un concert"/>
-				<img data-gallery-tag="Business" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg" alt="photo d'une femme souriante en entreprise"/>
+				<img data-gallery-tag="Concerts" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-concert-en-salle-resize.webp" width="498" height="664" alt="photo prise du publique d'un concert en salle"/>
+				<img data-gallery-tag="Business" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-homme-affaire-croisant-les-bras-resize.webp" width="498" height="747" alt="photo d'un homme d'affaire croisant les bras"/>
+				<img data-gallery-tag="Business" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-femme-souriante-au-travail-resize.webp" width="498" height="337" alt="photo d'une femme souriante en entreprise"/>
+				<img data-gallery-tag="Weddings" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-main-jointe-mariage-resize.webp" width="498" height="398" alt="photo de mariage de mains qui se touchent du bout des doigts"/>
+				<img data-gallery-tag="Portraits" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-portrait-homme-fermant-les-yeux-resize.webp" width="498" height="746" alt="photo portrait d'un homme fermant les yeux"/>
+				<img data-gallery-tag="Weddings" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-couple-marriage-resize.webp" width="498" height="747" alt="photo de mariage d'un homme et d'une femme se tenant la main"/>
+				<img data-gallery-tag="Portraits" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg-portrait-femme-portant-lunette-resize.webp" width="498" height="748" alt="photo portrait d'une femme portant des lunettes"/>
+				<img data-gallery-tag="Concerts" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-chanteur-en-concert-resize.webp" width="498" height="332" alt="photo d'un chanteur durant un concert"/>
+				<img data-gallery-tag="Business" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-femme-souriante-au-travail-2-rezise.webp" width="498" height="305" alt="photo d'une femme souriante en entreprise"/>
 			</div>
 		</div>
 		<div class="quote">
@@ -180,7 +247,7 @@
 				</form>
 			</div>
 			<div class="picture right">
-				<img src="./assets/images/camera.png" alt="photo d'un appareil photo">
+				<img src="./assets/images/photo-d'une-camera-resize.webp" width="419" height="418" alt="photo d'un appareil photo">
 			</div>
 		</div>
 	</section>
@@ -198,13 +265,15 @@
 		<div>
 			<p class="list-titles">Me contacter:</p>
 			<ul class="footer-list">
-				<li>05 56 67 78 89</li>
+				<li>Tél : 05 56 67 78 89</li>
 			</ul>
 		</div>
 		<div>
 			<p class="list-titles">Mes disponibilités:</p>
 			<ul class="footer-list">
-				<li>Par téléphone du lundi au vendredi de 10h à 19h</li>
+				<li>Par télephone</li>
+				<li>Du lundi au vendredi</li>
+				<li>De 10h00 à 19h00</li>
 			</ul>
 		</div>
 	</div>
