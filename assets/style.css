@@ -31,6 +31,7 @@ body {
 
 .nav li {
 	padding-inline: 10px;
+	cursor: pointer;
 }
 
 .nav a {
@@ -74,9 +75,13 @@ body {
 #about-me {
 	flex: 2
 }
+#about-me h1{
+	margin-bottom: 35px;
+	font-size: 2.5em;
+	
+}
 .about-me__title {
-	margin-top: 1em;
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 	font-size: 30px;
 }
 .about-me__introduction {
@@ -85,9 +90,13 @@ body {
 	font-style: italic;
 	width: 60%;
 }
-#about-me p {
+#about-me .about-me__introduction {
 	width: 80%;
-	font-size: 14px;
+	font-size: 0.9rem;
+}
+#about-me .about-me__quote{
+	width: 80%;
+	font-size: 0.875rem;
 }
 
 #gallery {
@@ -102,7 +111,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #6d6410;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -147,7 +156,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+	font-size: 2.5em;
 }
 .quote__author {
 	font-family: Spectral;
@@ -242,6 +251,23 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+.footer-info{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 20px;
+	padding: 1em;
+}
+ul{
+	list-style: none;
+}
+.list-titles{
+	margin-bottom: 10px;
+	font-weight: 700
+}
+.footer-list {
+	padding: 0;
 }
 
 @media all and (max-width: 1180px) {
@@ -351,6 +377,9 @@ input[type="submit"] {
 	}
 	.picture {
 		width: 80%;
+	}
+	.footer-info{
+		flex-direction: column;
 	}
 }
 
