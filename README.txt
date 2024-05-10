@@ -4,9 +4,11 @@ Parmi mes prospects, il y a le site de Nina Carducci, une photographe dont m'a p
 Mon objectif est de debugger et d'optimiser le site de Nina grace à différents outils pour améliorer son référencement.
 
 Audits LightHouse et Wave avant optimisation:
-<img src="assets/imagesREADME/auditAvantOptiDesktop.png" alt "audit lighthouse desktop">
+https://github.com/JhodyLagarde/OC-Projet4-NinaCarducci/blob/master/assets/imagesREADME/auditAvantOptiDesktop.png?raw=true
+https://github.com/JhodyLagarde/OC-Projet4-NinaCarducci/blob/master/assets/imagesREADME/auditAvantOptiMobile.png?raw=true
+https://github.com/JhodyLagarde/OC-Projet4-NinaCarducci/blob/master/assets/imagesREADME/waveAvantOpti.png?raw=true
 
 Audits LightHouse et Wave après optimisation:
-![Audit LightHouse desktop après optimisation](assets/imagesREADME/auditApresOptiDesktop.png "audit LightHouse desktop")
-![Audit LightHouse mobile après optimisation](assets/imagesREADME/auditApresOptiMobile.png "audit LightHouse mobile")
-![Audit wave après optimisation](assets/imagesREADME/waveApresOpti.png "audit wave")
+https://github.com/JhodyLagarde/OC-Projet4-NinaCarducci/blob/master/assets/imagesREADME/auditApresOptiDesktop.png?raw=true
+https://github.com/JhodyLagarde/OC-Projet4-NinaCarducci/blob/master/assets/imagesREADME/auditApresOptiMobile.png?raw=true
+https://github.com/JhodyLagarde/OC-Projet4-NinaCarducci/blob/master/assets/imagesREADME/waveApresOpti.png?raw=true
